@@ -1,0 +1,44 @@
+{
+  "name": "datasida",
+  "version": "1.0.0",
+  "description": "light weight sql server management studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmadziyauswa/datasida.git"
+  },
+  "dependencies" : {
+    "express" : "*",
+    "body-parser" : "*",
+    "express-session" : "*",
+    "sequelize" : "*",
+    "mongoose" : "*",
+    "react" : "*",
+    "react-dom" : "*",
+    "underscore" : "*",
+    "flux" : "*",
+    "morgan" : "*"
+    },
+
+  "devDependencies" : {
+    "gulp" : "*",
+    "browserify" : "*",
+    "reactify" : "*",
+    "envify" : "*"
+    },
+  "keywords": [
+    "db",
+    "sql",
+    "server",
+    "management"
+  ],
+  "author": "Ransome Madziyauswa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmadziyauswa/datasida/issues"
+  },
+  "homepage": "https://github.com/rmadziyauswa/datasida#readme"
+}
